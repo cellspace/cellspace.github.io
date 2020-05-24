@@ -1,7 +1,8 @@
 ---
 title: Hexo+Github配置笔记
 date: 2020-05-21 22:38:37
-tags:
+tags: Hexo
+categories: Note
 ---
 
 ## 本地配置
