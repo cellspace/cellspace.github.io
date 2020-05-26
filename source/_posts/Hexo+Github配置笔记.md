@@ -11,25 +11,25 @@ archives: Note
 ## 本地配置
 
 ### 安装 nodejs
-下载地址：[nodejs](https://nodejs.org/) <br>
+下载地址：[nodejs](https://nodejs.org/)
 检查是否安装成功
 ```bash
 node –v  
 npm -v
 ```
 ### 安装git
-下载地址：[git](https://git-scm.com/downloads) <br>
+下载地址：[git](https://git-scm.com/downloads)
 检查是否安装成功
 ```bash
 git --version
 ```
 ### hexo安装和配置
-创建blog目录，进入目录：<br>
+创建blog目录，进入目录
 设置国内镜像
 ```bash
 npm config set registry:https://registry.npm.taobao.org
 ```
-###安装hexo
+### 安装hexo
 ```bash
 npm install hexo --save
 ```
@@ -62,10 +62,11 @@ hexo server (hexo s)
  ## 远程仓库Github配置  
  
  ### 创建仓库
- &emsp;&ensp;仓库名是固定的，必须是你的名字加上".github.io"后缀：UserName.github.io
+ &emsp;&ensp;仓库名是固定的，必须是你的名字加上".github.io"后缀
+ 我的名字github名字是cellspace，所以就必须是：cellspace.github.io
  ### 创建两个分支：master 与 hexo
- &emsp;&ensp;点击仓库主上的"branch:master"创建一个新的分支hexo <br>
- &emsp;&ensp;**master分支:** 用来存放博客网页的源文件（hexo deploy 默认推送到master）<br>
+ &emsp;&ensp;点击仓库主上的"branch:master"创建一个新的分支hexo
+ &emsp;&ensp;**master分支:** 用来存放博客网页的源文件（hexo deploy 默认推送到master)
  &emsp;&ensp;**hexo分支:** 用来存放hexo的配置文件
  ### 设置hexo为默认分支
  &emsp;&ensp;Settings ==> Branches ==> 选择"hexo" ==> Update
