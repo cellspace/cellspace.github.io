@@ -3,7 +3,10 @@ title: Hexo+Github配置笔记
 date: 2020-05-21 22:38:37
 tags: Hexo
 categories: Note
+archives: Note
 ---
+# Hexo+Github配置笔记
+<!-- more -->
 
 ## 本地配置
 ### 1.安装 nodejs
@@ -13,6 +16,7 @@ categories: Note
 node –v  
 npm -v
 ```
+
 ### 2.安装git
 下载地址：[git](https://git-scm.com/downloads) <br>
 检查是否安装成功
@@ -25,6 +29,7 @@ git --version
 npm install -g hexo-cli
 (npm install hexo)
 ```
+
 如果速度太慢可以设置国内镜像
 ```bash
 npm config set registry : https://registry.npm.taobao.org
