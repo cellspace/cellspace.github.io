@@ -132,8 +132,8 @@ menu_settings:
 
 sidebar:
   # Sidebar Position.
-  #position: left
-  position: right
+  position: left
+  #position: right
 
   # Manual define the sidebar width. If commented, will be default for:
   # Muse | Mist: 320
@@ -295,7 +295,7 @@ post_edit:
 
 # Show previous post and next post in post footer if exists
 # Available values: left | right | false
-post_navigation: right
+post_navigation: left
 
 
 # ---------------------------------------------------------------
@@ -332,8 +332,8 @@ calendar:
 # Set the text alignment in posts / pages.
 text_align:
   # Available values: start | end | left | right | center | justify | justify-all | match-parent
-  desktop: match-parent
-  mobile: match-parent
+  desktop: justify-all
+  mobile: justify-all
 
 # Reduce padding / margin indents on devices with narrow width.
 mobile_layout_economy: false
