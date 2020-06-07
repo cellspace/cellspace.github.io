@@ -25,15 +25,7 @@ git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 3.环境变量设置
 (1)将depot_tools的路径设置到Path
 (2)新建DEPOT_TOOLS_WIN_TOOLCHAIN = 0
-
-4.开始下载
-```bash
-fetch  --nohooks webrtc
-gclient sync
-```
-
-5.设置其他必要的环境变量（这里是临时设置，也可以像步骤3中一样永久设置）
-
+(3)设置其他必要的环境变量(临时)
 ```bash
 set GCLIENT_PY3 = 1
 set WINDOWSSDKDIR = D:\Windows Kits\10
@@ -42,7 +34,13 @@ set GYP_MSVS_OVERRIDE_PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\C
 set GYP_GENERATORS=msvs-ninja,ninja
 ```
 
-6.生成vs2019工程
+4.开始下载
+```bash
+fetch  --nohooks webrtc
+gclient sync
+```
+
+5.生成vs2019工程
 ```bash
 gn gen ../vs2019_prj --ide=vs2019
 ```
