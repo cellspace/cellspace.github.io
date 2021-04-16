@@ -56,9 +56,9 @@ hexo server
 打开 http://localhost:4000/ 就可以看到默认的博客的主页了  
 
 #### 更换主题
-[next](https://github.com/theme-next/hexo-theme-next.git) (更多主题: [themes](https://hexo.io/themes/)) 将主题包解压，放入 blog/themes/next 目录下  
+下载主题[next](https://github.com/theme-next/hexo-theme-next.git) (更多主题: [themes](https://hexo.io/themes/)),将主题包解压,放入`blog/themes/next`目录下  
 
-配置 blog/_config.yml 中的 theme 字段为你的主题名称
+配置 `blog/_config.yml` 中的`theme`字段为你的主题名称
 ```bash
 theme: next
 ```
@@ -75,12 +75,12 @@ theme: next
 我的名字github名字是cellspace，所以就必须是：cellspace.github.io
 
 ### 创建两个分支：master 与 hexo 
-点击仓库主上的"branch:master"创建一个新的分支hexo,   
-并设置hexo为默认分支:   
-`Settings` ==> `Branches` ==> `选择"hexo"` ==> `Update`  
+点击仓库上默认的分支`branch:master`, 输入`hexo`, 点击`Create branch:hexo from 'master'`创建一个新的分支,   
+设置hexo为默认分支: `Settings` ==> `Branches` ==> `Default branch` ==> `switch to 'hexo'` ==> `Update`  
 > ***Note***:  
 >  `master`: 用来存放`hexo generate`自动生成的网页的源文件  
->  `hexo`: 用来存放hexo的配置文件，以及我们所写的".md"类型的博客文件    
+>  `hexo`: 用来存放hexo的配置文件，以及我们所写的".md"类型的博客文件   
+ 
 #### master分支配置
 配置本地`blog/_config.yml`中的`deploy`字段
 ```yml
@@ -96,15 +96,7 @@ hexo deploy
 发布完成后访问：https://UserName.github.io 就可以看到你的博客了
 
 #### hexo分支配置   
-由于是首次配置，且前面已经创建了blog目录，不能直接clone，需要在生成git配置文件，并将本地git与远端关联 
-```
-cd blog
-git init
-git checkout -b hexo
-git remote add origin git@github.com:UserName/UserName.github.io.git
-git branch --set-upstream-to=origin/hexo hexo
-```
-后续如果想要在别的电脑上更新,直接clone即可
+直接clone，并将`blog`中所有的内容复制到repository的目录中
 ```bash
 git clone -b BranchName --single-branch git@github.com:UserName/UserName.github.io.git
 ```
