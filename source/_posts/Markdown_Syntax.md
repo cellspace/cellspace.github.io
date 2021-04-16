@@ -1,12 +1,12 @@
 ---
 title: The syntax of markdown language
-date: 2020-05-21 22:38:37
+date: 2021-05-16
 tags: Hexo
 categories: Note
 archives: 
 ---
 
-The syntax of markdown language
+To view the source code of this page, please go to [Raw Page](https://raw.githubusercontent.com/cellspace/cellspace.github.io/hexo/source/_posts/Markdown_Syntax.md).
 <!-- more -->
 ---
 # <p align="center"></p> <!-- h1 Title -->  
@@ -56,10 +56,10 @@ The syntax of markdown language
 
 ## Image
 
-![Fail to load the image](../http_html/favicon.ico "qiongmei") <!--can not specify the dimension of the image-->  
+![Fail to load the image](/images/favicon.ico "qiongmei") <!--can not specify the dimension of the image-->  
 `Note: Image can also use reference link.`
 
-<img src="../http_html/qiongmei.jpg" width="60" alt="Fail to laod theimage"></img>  
+<img src="/images/qiongmei.jpg" width="60" alt="Fail to laod theimage"></img>  
 
 ## Layer
 

@@ -62,7 +62,7 @@ hexo server
 ```bash
 theme: next
 ```
-> ***Note***  
+> ***Note:***  
 > `blog/_config.yml`是hexo的配置文件  
 > `blog/themes/next/_config.yml`是主题next的配置文件
 
@@ -77,7 +77,7 @@ theme: next
 ### 创建两个分支：master 与 hexo 
 点击仓库上默认的分支`branch:master`, 输入`hexo`, 点击`Create branch:hexo from 'master'`创建一个新的分支,   
 设置hexo为默认分支: `Settings` ==> `Branches` ==> `Default branch` ==> `switch to 'hexo'` ==> `Update`  
-> ***Note***:  
+> ***Note:***  
 >  `master`: 用来存放`hexo generate`自动生成的网页的源文件  
 >  `hexo`: 用来存放hexo的配置文件，以及我们所写的".md"类型的博客文件   
  
